@@ -45,6 +45,29 @@ Dataset → IBM Cloud Object Storage → Watson Studio → Data Preprocessing �
 - XGBoost achieved the best accuracy of 37.25%.
 - Developed a Gradio-based prediction interface.
 
+### Project Screenshots
+
+#### 1. Dataset Loading from IBM Cloud Object Storage
+Shows successful loading and preview of the fault dataset.
+
+### 2. XGBoost Model Training and Accuracy Evaluation
+Training the XGBoost classifier and measuring prediction accuracy.
+
+### 3. Fault Type Prediction Result
+Example of fault classification using real input parameters.
+
+### 4. Model Performance Evaluation
+Classification report showing precision, recall, and F1-score.
+
+### 5. Fault Distribution Analysis
+Visualization of different fault categories in the dataset.
+
+### 6. Random Forest vs XGBoost Performance Comparison
+Comparison of machine learning model accuracies.
+
+### 7. Power System Fault Classification Web Interface
+Interactive Gradio application for real-time fault prediction.
+
 ## Repository Contents
 - `fault_data.csv` – Dataset
 - `Fault_Classification.ipynb` – IBM Watson Studio Notebook
